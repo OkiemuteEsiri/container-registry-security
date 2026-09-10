@@ -1,0 +1,44 @@
+[
+  {
+    "registry": "registry.example.internal",
+    "repository": "payments-api",
+    "digest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "pushed_at": "2026-08-20T10:00:00Z",
+    "signed": true,
+    "sbom_present": true,
+    "immutable_tag": true,
+    "public": false,
+    "critical_vulnerabilities": 0,
+    "high_vulnerabilities": 1,
+    "base_image_supported": true,
+    "owner": "payments-platform"
+  },
+  {
+    "registry": "registry.example.internal",
+    "repository": "legacy-reporting",
+    "digest": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "pushed_at": "2025-11-01T08:30:00Z",
+    "signed": false,
+    "sbom_present": false,
+    "immutable_tag": false,
+    "public": true,
+    "critical_vulnerabilities": 2,
+    "high_vulnerabilities": 11,
+    "base_image_supported": false,
+    "owner": ""
+  },
+  {
+    "registry": "registry.example.internal",
+    "repository": "analytics-worker",
+    "digest": "sha256:cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+    "pushed_at": "2026-04-02T14:45:00Z",
+    "signed": true,
+    "sbom_present": false,
+    "immutable_tag": true,
+    "public": false,
+    "critical_vulnerabilities": 0,
+    "high_vulnerabilities": 7,
+    "base_image_supported": true,
+    "owner": "data-engineering"
+  }
+]
